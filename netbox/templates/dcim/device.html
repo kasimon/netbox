@@ -387,7 +387,7 @@
                                 <th class="pk"><input type="checkbox" class="toggle" title="Toggle all" /></th>
                             {% endif %}
                             <th>Name</th>
-                            <th colspan="2">Installed Device</th>
+                            <th colspan="3">Installed Device</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -396,7 +396,7 @@
                             {% include 'dcim/inc/devicebay.html' %}
                         {% empty %}
                             <tr>
-                                <td colspan="5" class="text-center text-muted">&mdash; No device bays defined &mdash;</td>
+                                <td colspan="6" class="text-center text-muted">&mdash; No device bays defined &mdash;</td>
                             </tr>
                         {% endfor %}
                     </tbody>
